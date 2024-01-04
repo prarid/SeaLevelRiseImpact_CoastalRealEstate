@@ -43,8 +43,21 @@ In addition to long term SLR impacts, this project also analyzes census tracts e
 
 This project analyzed 20 coastal states in the contiguous United States covering ~200 coastal counties and ~22K coastal census tracts within them. Each census tract was analyzed in terms of whether is it currently known to be at risk, i.e., "Current Risk Regions", vs. if it could be at risk in the future over the medium to long term, i.e., "Emerging Risk Regions". 
 
-The first part of the project involved understanding current risks. In terms of sea level rise, one of the simplest forms in which it could manifest itself would be flooding. The Federal Emergency Management Agency (FEMA) has identified regions that are at high risk for flooding (FEMA floodplains)<sup>[5](https://www.fema.gov/flood-maps)</sup>. This project used FEMA high risk floodplains as a proxy for areas that are currently known to be at risk for coastal flooding. In this project, these regions are considered "Current Risk Regions". The second part of this project delves into identifying census tracts that may be at risk over the medium or longer term. NOAA has identified coastal plains with the US that would be impacted at various levels of sea level rise; this project utilized a scenario based approach (as explained in the above section) to identify relevant impacted coastal census tracts that could become an emerging risk over the medium term (2050) or longer term (2100), i.e., "Emerging Risk Regions. 
+The first part of the project involved understanding current risks. In terms of sea level rise, one of the simplest forms in which it could manifest itself would be flooding. The Federal Emergency Management Agency (FEMA) has identified regions that are at high risk for flooding (FEMA floodplains)<sup>[5](https://www.fema.gov/flood-maps)</sup>. This project used FEMA high risk floodplains as a proxy for areas that are currently known to be at risk for coastal flooding. In this project, these regions are considered "Current Risk Regions". 
 
-The key findings through this analysis were that that outside of current FEMA high risk areas, there are ~3500 other census tracts along the contiguous US coastline that are expected to experience an average SLR increase of 1ft in the medium term (by 2050) and longer term (by 2100) an additional ~1660 census tracts are at risk for 2-7ft of SLR.
+The second part of this project delved into identifying census tracts that may be at risk over the medium or longer term. This project leveraged sea level rise information from NOAA to identify census tracts that could become an emerging risk over the medium term (2050) or longer term (2100), i.e., "Emerging Risk Regions". In order to better understand the severity of risk of rising sea leveles, emerging risk was divided into four categories - one category covering the medium term* and three scenario based longer term categores:
+
+* Emerging Medium Term Risk (1 ft SLR by 2050)
+* Emerging Long Term Risk in Baseline Scenario (2ft SLR by 2100)
+* Emerging Long Term Risk in Adverse Scenario (4ft SLR by 2100)
+* Emerging Long Term Risk in Sev. Adverse Scenario (7ft SLR by 2100)
+
+*as given there is more confidence in the SLR predictions, no scenario based approach is needed over the medium term
+
+
+#### Key Observations
+The key observations through this analysis were that that outside of current FEMA high risk areas, there are ~3500 other census tracts along the contiguous US coastline that are expected to experience an average SLR increase of 1ft in the medium term (by 2050) and longer term (by 2100) an additional ~1660 census tracts are at risk for 2-7ft of SLR.
 
 ![US_current_vs_emerging_risks.png](US_current_vs_emerging_risks.png)
+
+Over the medium term (by 2050) SLR is bound on the lower end by 1ft and on the higher end by 2ft for the contiguous US coastline and given improved understanding of the reasons driving SLR, there is a lot more confidence in this narrower range irrespective of the future course of emission pathways<sup>[3](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html)</sup>. Therefore these emerging risk census tracts should be considered high risk. Over the longer term, the severity of SLR will be influenced by green house glass emission rates. Even at low emission rates, SLR of 2ft is expected over most of the contiguous US. Census tracts identified in the baseline scenario should be considered high-medium risk at this time. At higher emission rates, SLR could vary been 4ft (NOAA intermediate SLR) and 7ft (NOAA high SLR). Census tracts identified in the adverse and severely adverse scenario should be considered medium-low and low risk respectively, at this time.
