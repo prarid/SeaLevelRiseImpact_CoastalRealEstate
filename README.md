@@ -71,4 +71,4 @@ Presently, we know of 7 counties and 20 census tracts that are currently at risk
 
 However, in the future, multiple additional counties and census tracts are expected to be at risk for SLR, particularly in the medium term as shown below. Over the medium term (2050), 1424 additional census tracts will be at risk for SLR of 1ft. Over the longer term (2100), 33 additional census tracts may be at risk depending on the specific SLR scenario.
 
-<img src="FL_current_vs_emerging_risks2.PNG">
+<img src="FL_current_vs_emerging_risks2.png">
