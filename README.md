@@ -67,7 +67,8 @@ Over the medium term (by 2050), given the warming of the ocean that has already 
 ###
 #### Case Study - Current vs Emerging SLR Risks in Florida
 Presently, we know of 7 counties and 20 census tracts that are currently at risk for flooding. 
-<p align="center"><img src="FL_scenario_agg2.png" width="500">
+<p align="center"><img src="FL_scenario_agg2.PNG" width="500">
 
 However, in the future, multiple additional counties and census tracts are expected to be at risk for SLR, particularly in the medium term as shown below. Over the medium term (2050), 1424 additional census tracts will be at risk for SLR of 1ft. Over the longer term (2100), 33 additional census tracts may be at risk depending on the specific SLR scenario.
-<img src="FL_current_vs_emerging_risks2.png">
+
+<img src="FL_current_vs_emerging_risks2.PNG">
