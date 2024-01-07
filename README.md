@@ -19,7 +19,6 @@ In light of these projections for coastal sea level rise for the contiguous US, 
 2. To provide specific information (FIPS codes) on the census tracts that would be impacted in each SLR severity scenario. Homebuyers and mortgage lenders can then factor in this census tract level location information into their purchase decisions to access how much of a haircut, if any, they would like to apply to their assessment of property value.
 
 ###
-
 ### Project Design
 
 #### Scenario Based Approach to Assess Long Term SLR Impacts 
@@ -54,6 +53,7 @@ The second part of this project delved into identifying census tracts that may b
 
 *as given there is more confidence in the SLR predictions, no scenario based approach is needed over the medium term
 
+###
 #### Key Observations
 The key observations through this analysis were that that outside of current FEMA high risk areas, there are ~3500 other census tracts along the contiguous US coastline that are expected to experience an average SLR increase of 1ft in the medium term (by 2050) and longer term (by 2100) an additional ~1660 census tracts are at risk for 2-7ft of SLR.
 
@@ -72,3 +72,41 @@ Presently, we know of 7 counties and 20 census tracts that are currently at risk
 However, in the future, multiple additional counties and census tracts are expected to be at risk for SLR, particularly in the medium term as shown below. Over the medium term (2050), 1424 additional census tracts will be at risk for SLR of 1ft. Over the longer term (2100), 33 additional census tracts may be at risk depending on the specific SLR scenario.
 
 <img src="FL_current_vs_emerging_risks2.png">
+
+
+###
+#### Data and Technology Used
+The following datasets were utilied in the analysis needed for this project:
+
+* <b>Census.gov geospatial datafiles: </b>The main dataset for this project is geospatial data identifying each census tract in the contiguous US. Geospatial data stores information about various locations via their latitude and longitude or through geometric shape objects. For example, each census tract in this dataset would be represented by its geometric shape. Census tracts are subdivisions within each county, varying in spatial size based on underlying population density.<sup>[6](https://www.census.gov/programs-surveys/geography/about/glossary.html#par_textimage_13)</sup> All the analysis in this project has been conducted at the census tract level. All relevant data has been sourced from census.gov <sup>[7](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_tract_5m.zip)</sup>
+    
+* <b>Data on Coastal Counties:</b> The scope of this project is limited to impact of rising sea levels, therefore the geospatial database has been reduced to only those counties that are along the coastline of the contiguous US. This reduced dataset is used for all the analysis performed in this project. The relavent coastal counties have been sourced from census.gov<sup>[8](https://www2.census.gov/library/stories/2018/08/coastline-counties-list.xlsx)</sup>
+
+* <b>FEMA dataset:</b> The Federal Emergency Management Agency (FEMA) has identified regions that are more suseptible to the risk of flooding (FEMA floodplains)<sup>[5](https://www.fema.gov/flood-maps)</sup>. These regions are narrowed down further to hone in on those regions that interset with the coastal counties to identify regions suseptible to <i>coastal</i> flooding in particular. Of these, the regions that FEMA has flagged as either "High" or "Very High" risk are merged into the master geosptial dataset. Given that FEMA floodzones are a relatively well known concept, these regions are considered "Current High Risk" as opposed to SLR zones explained below that are considered "Emerging Risk". The data for this project was sourced from FEMA National Risk Index (NRI)<sup>[9](https://hazards.fema.gov/nri/)</sup> and all analysis has been performed at the census tract level.
+
+* <b> NOAA.gov SLR geospatial data: </b> The National Oceanic and Atmospheric Administration (NOAA) has identified coastal plains with the US that would be impacted at various levels of sea level rise. This project analyzes the regional impacts for sea levels rising 1 foot through 7 feet by 2100 (compared to 2000 sea levels). The SLR is analyzed over three scenarios - Baseline (2ft), Adverse (4ft) and Severely Adverse (7ft) in line with the 2022 NOAA SLR Technical Report scenarios of Low, Intermediate and High SLR for the contiguous US.<sup>[3](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html)</sup> Note that given the complexity of the geospatial data (identification and extraction of the geospatial layer for each region, spatial joins on multi polygon shapes), these functions take several hours to run for each scenario. Therefore, in the pre-processing stage, the relevant files are written to disk once processed (see Preprocessing_SLR.ipynb). The preprocessed files are being read in directly here. All the relevant files were sourced from NOAA.gov<sup>[10](https://coast.noaa.gov/slrdata/)</sup>
+
+Merging the SLR and FEMA datasets with the coastal geospatial dataset allows for the identification of "current" high risk coastal zones (FEMA high risk zones, as well as "emerging" high risk coastal zones under the Baseline, Adverse and Severely Adverse SLR scenarios.
+
+
+###
+#### References:
+1. [US Coastal Counties Population](https://coast.noaa.gov/states/fast-facts/economics-and-demographics.html)
+2. [NOAA](https://www.noaa.gov/)
+3. [NOAA 2022 Sea Level Rise Technical Report](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html)
+4. [Federal Reserve Board Stress Tests](https://www.federalreserve.gov/publications/2023-Stress-Test-Scenarios.htm)
+5. [FEMA floodplains](https://www.fema.gov/flood-maps) 
+6. [What is a census tract?](https://www.census.gov/programs-surveys/geography/about/glossary.html#par_textimage_13)
+7. [Geospatial datafiles for contiguous US](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_tract_5m.zip)
+8. [Coastal Counties](https://www2.census.gov/library/stories/2018/08/coastline-counties-list.xlsx)
+9. [FEMA National Risk Index (NRI)](https://hazards.fema.gov/nri/)
+10. [SLR data](https://coast.noaa.gov/slrdata/)
+
+
+###
+#### Version Control
+|Version|Date| Decription |
+|:---:|:---:|:---|
+|v1 |Oct 2023  |Initial Version: Analyzed coastal regions impacted by 1ft SLR by 2100 |
+|v2|Nov 2023| Revised the project design to use a scenario based approach in the long term given the expected variability in potential long term SLR paths. Expanded analysis to include three scenarios designed in line with Federal Reserve Stress Testing scenario design guidance (Baseline, Adverse and Severly Adverse) to reflect 1ft, 6ft and 10ft of SLR by 2100|
+|v3|Dec 2023| Revised scenarios that are considered in the analysis to now reflect 1ft through 7ft (seven distinct SLR levels instead of just three levels used in the prior version). In line with more recent guidance per the NOAA 2022 Technical Report, an extreme scenario of >8ft SLR is considered implausible by 2100 so any SLR projections higher than 7ft were dropped.
