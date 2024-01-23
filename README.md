@@ -75,6 +75,7 @@ However, in the future, multiple additional counties and census tracts are expec
 
 <img src="Figures/FL_current_vs_emerging_risks2.png">
 
+Note: similar analysis for other states can be found in the Figures folder of this repository.
 
 ##
 #### Technology and Data
