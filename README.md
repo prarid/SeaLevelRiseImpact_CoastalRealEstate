@@ -59,7 +59,7 @@ The key observations through this analysis were that that outside of current FEM
 
 ![US_current_vs_emerging_risks.png](Output/Figures/US_current_vs_emerging_risks.png)
 <p align="center">
-  <img src="Output/Figures/census_tracts_per_risk_category_US" width="500">
+  <img src="Output/Figures/census_tracts_per_risk_category_US.png" width="500">
 
 * Over the medium term (by 2050), given the warming of the ocean that has already occurred due to climate change, contiguous US coastline sea levels are expected to rise between 1.3 - 2ft on average, <i>irrespective</i> of future emissions pathways or other climate mitigation action. Therefore <b>"Emerging Medium Term Risk" census tracts should be considered high risk</b>.
 * Over the longer term (by 2100), the severity of SLR will be influenced by green house gas emission rates and resultant global warming. Even at low emission rates, SLR of 2ft is expected over most of the contiguous US. Census tracts identified in the Baseline Scenario, i.e., <b>"Emerging Long Term Risk in Baseline" should be considered high-medium risk</b> at this time.
