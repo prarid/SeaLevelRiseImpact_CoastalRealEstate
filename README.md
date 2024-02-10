@@ -57,9 +57,9 @@ The second part of this project delved into identifying census tracts that may b
 #### Key Observations
 The key observations through this analysis were that that outside of current FEMA high risk areas, there are ~3500 other census tracts along the contiguous US coastline that are expected to experience an average SLR increase of 1ft in the medium term (by 2050) and longer term (by 2100) an additional ~1660 census tracts are at risk for 2-7ft of SLR.
 
-![US_current_vs_emerging_risks.png](Figures/US_current_vs_emerging_risks.png)
+![US_current_vs_emerging_risks.png](Output/Figures/US_current_vs_emerging_risks.png)
 <p align="center">
-  <img src="Figures/RiskCategoryCounts.PNG" width="500">
+  <img src="/OutputFigures/census_tracts_per_risk_category_US" width="500">
 
 * Over the medium term (by 2050), given the warming of the ocean that has already occurred due to climate change, contiguous US coastline sea levels are expected to rise between 1.3 - 2ft on average, <i>irrespective</i> of future emissions pathways or other climate mitigation action. Therefore <b>"Emerging Medium Term Risk" census tracts should be considered high risk</b>.
 * Over the longer term (by 2100), the severity of SLR will be influenced by green house gas emission rates and resultant global warming. Even at low emission rates, SLR of 2ft is expected over most of the contiguous US. Census tracts identified in the Baseline Scenario, i.e., <b>"Emerging Long Term Risk in Baseline" should be considered high-medium risk</b> at this time.
@@ -69,11 +69,11 @@ The key observations through this analysis were that that outside of current FEM
 ##
 #### Case Study - Current vs Emerging SLR Risks in Florida
 Presently, we know of 7 counties and 20 census tracts that are currently at risk for flooding. 
-<p align="center"><img src="Figures/FL_scenario_agg2.PNG" width="500">
+<p align="center"><img src="Output/Figures/FL_scenario_agg2.PNG" width="500">
 
 However, in the future, multiple additional counties and census tracts are expected to be at risk for SLR, particularly in the medium term as shown below. Over the medium term (2050), 1424 additional census tracts will be at risk for SLR of 1ft. Over the longer term (2100), 33 additional census tracts may be at risk depending on the specific SLR scenario.
 
-<img src="Figures/FL_current_vs_emerging_risks2.png">
+<img src="Output/Figures/FL_current_vs_emerging_risks2.png">
 
 Note: similar analysis for other states can be found in the Figures folder of this repository.
 
