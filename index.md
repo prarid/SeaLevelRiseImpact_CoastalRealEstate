@@ -18,7 +18,7 @@ In light of these projections for coastal sea level rise for the contiguous US, 
 1. To give the general public (potential home buyers, mortgage lenders, et al.) a tool to visualize the regional impacts of SLR over the medium term (2050) and longer term (2100). Sea level rise is studied at various severities ranging from 1ft to 7ft.
 2. To provide specific information (FIPS codes) on the census tracts that would be impacted in each SLR severity scenario. Homebuyers and mortgage lenders can then factor in this census tract level location information into their purchase decisions to access how much of a haircut, if any, they would like to apply to their assessment of property value.
 
-###
+
 ### Project Design
 
 #### Scenario Based Approach to Assess Long Term SLR Impacts 
@@ -35,7 +35,7 @@ The Baseline scenario is mapped to NOAA's long term "Low" SLR projection of appr
 #### Additional Analysis for the Medium Term
 In addition to long term SLR impacts, this project also analyzes census tracts expected to be impacted by SLR over the medium term (2050). Over the medium term, SLR is bound on the lower end by 1ft and on the higher end by 2ft for the contiguous US. Recent scientific developments have led to an improved understanding of the factors driving SLR and therefore, there is a lot more confidence in this narrower range (irrespective of the future course of emission pathways)<sup>[3](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html)</sup>. Due to this increase confidence in the SLR predictions over the medium term, this project does not use a scenario based approach for the medium term. Instead, all contiguous US coastal census tracts at risk for SLR of 1ft by 2050 are considered at risk over the medium term in this project.
 
-###
+
 ### Project Analysis and Observations
 
 #### Analysis of Current Risks vs Emerging Risks
@@ -53,7 +53,7 @@ The second part of this project delved into identifying census tracts that may b
 
 *as given there is more confidence in the SLR predictions, no scenario based approach is needed over the medium term.
 
-##
+
 #### Key Observations
 The key observations through this analysis were that that outside of current FEMA high risk areas, there are ~3500 other census tracts along the contiguous US coastline that are expected to experience an average SLR increase of 1ft in the medium term (by 2050) and longer term (by 2100) an additional ~1660 census tracts are at risk for 2-7ft of SLR.
 
