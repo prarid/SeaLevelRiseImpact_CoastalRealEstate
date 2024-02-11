@@ -69,11 +69,12 @@ The key observations through this analysis were that that outside of current FEM
 ##
 #### Case Study - Current vs Emerging SLR Risks in Florida
 Presently, we know of 7 counties and 20 census tracts in Florida that are at high risk for flooding. 
-<p align="center"><img src="Output/Figures/FL_scenario_agg2.PNG" width="500">
+<p align="center"><img src="Output/Figures/Florida_riskcat_agg_counts.png" width="500">
 
 However, in the future, multiple additional counties and census tracts are expected to be at risk for SLR, particularly in the medium term as shown below. Over the medium term (2050), 1424 additional census tracts will be at risk for SLR of 1ft. Over the longer term (2100), 33 additional census tracts may be at risk depending on the specific SLR scenario.
 
-<img src="Output/Figures/FL_current_vs_emerging_risks2.png">
+<img src="Output/Figures/Florida_riskcat_bycounty_counts.png">
+<img src="Output/Figures/Florida_visual.png" width = 650>
 
 Note: similar analysis for other states can be found in the Figures folder of this repository.
 
