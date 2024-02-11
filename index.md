@@ -76,7 +76,7 @@ However, in the future, multiple additional counties and census tracts are expec
 
 <img src="Output/Figures/Florida_visual.png" width = 650>
 
-Note: similar analysis for other coastal states can be found in the appendicies.
+Note: similar analysis for other coastal states can be found in the appendices.
 
 
 #### Technology and Data
