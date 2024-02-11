@@ -114,16 +114,6 @@ The following datasets were utilied in the analysis needed for this project:
 [10. SLR data](https://coast.noaa.gov/slrdata/)
 
 
-
-#### Version Control
-|Version|Date| Decription |
-|:---:|:---:|:---|
-|v1 |Oct 2023  |Initial Version: Analyzed coastal regions impacted by 1ft SLR by 2100 |
-|v2|Nov 2023| Revised the project design to use a scenario based approach in the long term given the expected variability in potential long term SLR paths. Expanded analysis to include three scenarios designed in line with Federal Reserve Stress Testing scenario design guidance (Baseline, Adverse and Severly Adverse) to reflect 1ft, 6ft and 10ft of SLR by 2100|
-|v3|Dec 2023| Revised scenarios that are considered in the analysis to now reflect 1ft through 7ft (seven distinct SLR levels instead of just three levels used in the prior version). In line with more recent guidance per the NOAA 2022 Technical Report, an extreme scenario of >8ft SLR is considered implausible by 2100 so any SLR projections higher than 7ft were dropped.
-
-
-
 ## Appendices
 <h3><center>California</center></h3>
 <p align="center"><img src="Output/Figures/California_visual.png" width = 650>
@@ -243,3 +233,29 @@ The following datasets were utilied in the analysis needed for this project:
 <p align="center"><img src="Output/Figures/New Hampshire_visual.png" width = 650>
 <p align="center"><img src="Output/Figures/New Hampshire_riskcat_agg_counts.png" width = 400>
 <p align="center"><img src="Output/Figures/New Hampshire_riskcat_bycounty_counts.png" width = 1000>
+
+
+#### Version Control
+<table>
+  <tr>
+    <th>Version</th>
+    <th>Date</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>v1</td>
+    <td>Oct 2023</td>
+    <td>Initial Version: Analyzed coastal regions impacted by 1ft SLR by 2100</td>
+  </tr>
+  <tr>
+    <td>v2</td>
+    <td>Nov 2023</td>
+    <td>Revised the project design to use a scenario based approach in the long term given the expected variability in potential long term SLR paths. Expanded analysis to include three scenarios designed in line with Federal Reserve Stress Testing scenario design guidance (Baseline, Adverse and Severly Adverse) to reflect 1ft, 6ft and 10ft of SLR by 2100</td>
+  </tr>
+  <tr>
+    <td>v3</td>
+    <td>Dec 2023</td>
+    <td>Revised scenarios that are considered in the analysis to now reflect 1ft through 7ft (seven distinct SLR levels instead of just three levels used in the prior version). In line with more recent guidance per the NOAA 2022 Technical Report, an extreme scenario of >8ft SLR is considered implausible by 2100 so any SLR projections higher than 7ft were dropped.</td>
+  </tr>
+</table>
+
