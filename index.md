@@ -59,9 +59,7 @@ The key observations through this analysis were that that outside of current FEM
 
 ![US_current_vs_emerging_risks.png](Output/Figures/US_current_vs_emerging_risks.png)
 
-<img src="Output/Figures/census_tracts_per_risk_category_US.png" width="500">{: .center}
-
-![census_tracts_per_risk_category_US.png](Output/Figures/census_tracts_per_risk_category_US.png){: .center}
+<img src="Output/Figures/census_tracts_per_risk_category_US.png" width="500">
 
 Observations:
 * Over the medium term (by 2050), given the warming of the ocean that has already occurred due to climate change, contiguous US coastline sea levels are expected to rise between 1.3 - 2ft on average, <i>irrespective</i> of future emissions pathways or other climate mitigation action. Therefore <b>"Emerging Medium Term Risk" census tracts should be considered high risk</b>.
@@ -71,14 +69,13 @@ Observations:
 
 #### Case Study - Current vs Emerging SLR Risks in Florida
 Presently, we know of 7 counties and 20 census tracts in Florida that are at high risk for flooding. 
-
-<p align="center"><img src="Output/Figures/Florida_riskcat_agg_counts.png" width="500">
+<img src="Output/Figures/Florida_riskcat_agg_counts.png" width="500">
 
 However, in the future, multiple additional counties and census tracts are expected to be at risk for SLR, particularly in the medium term as shown below. Over the medium term (2050), 1424 additional census tracts will be at risk for SLR of 1ft. Over the longer term (2100), 33 additional census tracts may be at risk depending on the specific SLR scenario.
 
-<p align="center"><img src="Output/Figures/Florida_riskcat_bycounty_counts.png">
+<img src="Output/Figures/Florida_riskcat_bycounty_counts.png">
 
-<p align="center"><img src="Output/Figures/Florida_visual.png" width = 650>
+<img src="Output/Figures/Florida_visual.png" width = 650>
 
 Note: similar analysis for other states can be found in the Figures folder of this repository.
 
