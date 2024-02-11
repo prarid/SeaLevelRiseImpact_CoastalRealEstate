@@ -1,23 +1,3 @@
-## References:
-[1. US Coastal Counties Population](https://coast.noaa.gov/states/fast-facts/economics-and-demographics.html)
-
-[2. NOAA](https://www.noaa.gov/)
-
-[3. NOAA 2022 Sea Level Rise Technical Report](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html)
-
-[4. Federal Reserve Board Stress Tests](https://www.federalreserve.gov/publications/2023-Stress-Test-Scenarios.htm)
-
-[5. FEMA floodplains](https://www.fema.gov/flood-maps) 
-
-[6. What is a census tract?](https://www.census.gov/programs-surveys/geography/about/glossary.html#par_textimage_13)
-[7. Geospatial datafiles for contiguous US](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_tract_5m.zip)
-
-[8. Coastal Counties](https://www2.census.gov/library/stories/2018/08/coastline-counties-list.xlsx)
-
-[9. FEMA National Risk Index (NRI)](https://hazards.fema.gov/nri/)
-
-[10. SLR data](https://coast.noaa.gov/slrdata/)
-
 # <center>Impact of Rising Sea Levels on Coastal Residential Real Estate Assets</center>
 
 
@@ -98,7 +78,7 @@ However, in the future, multiple additional counties and census tracts are expec
 
 Note: similar analysis for other states can be found in the Figures folder of this repository.
 
-##
+
 #### Technology and Data
 This project was implemented primarily in Jupyter Notebook using geopandas, as well as other standard Python libraries like pandas, matplotlib, seaborn, etc.
 The following datasets were utilied in the analysis needed for this project:
@@ -111,11 +91,29 @@ The following datasets were utilied in the analysis needed for this project:
 
 * <b> NOAA.gov SLR geospatial data: </b> The National Oceanic and Atmospheric Administration (NOAA) has identified coastal plains with the US that would be impacted at various levels of sea level rise. This project analyzes the regional impacts for sea levels rising 1 foot through 7 feet by 2100 (compared to 2000 sea levels). The SLR is analyzed over three scenarios - Baseline (2ft), Adverse (4ft) and Severely Adverse (7ft) in line with the 2022 NOAA SLR Technical Report scenarios of Low, Intermediate and High SLR for the contiguous US.<sup>[3](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html)</sup> Note that given the complexity of the geospatial data (identification and extraction of the geospatial layer for each region, spatial joins on multi polygon shapes), these functions take several hours to run for each scenario. Therefore, in the pre-processing stage, the relevant files are written to disk once processed (see Preprocessing_SLR.ipynb). The preprocessed files are being read in directly Analysis_and_Visualization.ipynb file. All the relevant files were sourced from NOAA.gov<sup>[10](https://coast.noaa.gov/slrdata/)</sup>
 
-###
+
+#### References:
+[1. US Coastal Counties Population](https://coast.noaa.gov/states/fast-facts/economics-and-demographics.html)
+
+[2. NOAA](https://www.noaa.gov/)
+
+[3. NOAA 2022 Sea Level Rise Technical Report](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html)
+
+[4. Federal Reserve Board Stress Tests](https://www.federalreserve.gov/publications/2023-Stress-Test-Scenarios.htm)
+
+[5. FEMA floodplains](https://www.fema.gov/flood-maps) 
+
+[6. What is a census tract?](https://www.census.gov/programs-surveys/geography/about/glossary.html#par_textimage_13)
+[7. Geospatial datafiles for contiguous US](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_tract_5m.zip)
+
+[8. Coastal Counties](https://www2.census.gov/library/stories/2018/08/coastline-counties-list.xlsx)
+
+[9. FEMA National Risk Index (NRI)](https://hazards.fema.gov/nri/)
+
+[10. SLR data](https://coast.noaa.gov/slrdata/)
 
 
 
-###
 #### Version Control
 |Version|Date| Decription |
 |:---:|:---:|:---|
