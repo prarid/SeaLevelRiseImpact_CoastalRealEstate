@@ -59,7 +59,7 @@ The key observations through this analysis were that that outside of current FEM
 
 ![US_current_vs_emerging_risks.png](Output/Figures/US_current_vs_emerging_risks.png)
 
-<p align="center"><img src="Output/Figures/census_tracts_per_risk_category_US.png" width="500">
+<img src="Output/Figures/census_tracts_per_risk_category_US.png" width="500">
 
 Observations:
 * Over the medium term (by 2050), given the warming of the ocean that has already occurred due to climate change, contiguous US coastline sea levels are expected to rise between 1.3 - 2ft on average, <i>irrespective</i> of future emissions pathways or other climate mitigation action. Therefore <b>"Emerging Medium Term Risk" census tracts should be considered high risk</b>.
@@ -106,6 +106,7 @@ The following datasets were utilied in the analysis needed for this project:
 [5. FEMA floodplains](https://www.fema.gov/flood-maps) 
 
 [6. What is a census tract?](https://www.census.gov/programs-surveys/geography/about/glossary.html#par_textimage_13)
+
 [7. Geospatial datafiles for contiguous US](https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_tract_5m.zip)
 
 [8. Coastal Counties](https://www2.census.gov/library/stories/2018/08/coastline-counties-list.xlsx)
