@@ -76,6 +76,9 @@ However, in the future, multiple additional counties and census tracts are expec
 <img src="Output/Figures/Florida_riskcat_bycounty_counts.png">
 <p align="center"><img src="Output/Figures/Florida_visual.png" width = 650>
 
+Sample 20 census tracts expected to be impacted in Pinellas County, Florida
+<p align="center"><img src="Output/Figures/FL_Pineallas_sample20_censustracts.png" width = 250>
+
 Note: similar analysis for other states can be found in the Figures folder of this repository.
 
 ##
