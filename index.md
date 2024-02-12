@@ -1,5 +1,5 @@
-# <center>Final Project Report:Impact of Rising Sea Levels on Coastal Residential Real Estate Assets</center>
-<center>[github repo](https://github.com/prarid/SeaLevelRiseImpact_CoastalRealEstate/)</center>
+# <center>Final Project Report: Impact of Rising Sea Levels on Coastal Residential Real Estate Assets</center>
+Code and other details available at [github repo](https://github.com/prarid/SeaLevelRiseImpact_CoastalRealEstate/tree/main)
 
 
 ### Project Motivation and Goals
