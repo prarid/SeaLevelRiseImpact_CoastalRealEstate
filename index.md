@@ -23,7 +23,7 @@ In light of these projections for coastal sea level rise for the contiguous US, 
 ### Project Design
 
 #### Scenario Based Approach to Assess Long Term SLR Impacts 
-Over the long term, given the potential variability in SLR projections, this project has been designed as a scenario based qualitative stress test. SLR scenarios have been designed based on the principles utilized in the Federal Reverse Capital Stress Testing exercise<sup>[4](https://www.federalreserve.gov/publications/2023-Stress-Test-Scenarios.htm)</sup>; <b>one baseline scenario and two "plausible but severe" scenarios</b> of SLR have been utilized to assess how the various coastal counties/census tracts within the contiguous US may be impacted at various SLR levels over the longer term. 
+Over the long term, given the potential variability in SLR projections, this project has been designed as a scenario based qualitative stress test. SLR scenarios have been designed based on the principles utilized in the Federal Reserve Capital Stress Testing exercise<sup>[4](https://www.federalreserve.gov/publications/2023-Stress-Test-Scenarios.htm)</sup>; <b>one baseline scenario and two "plausible but severe" scenarios</b> of SLR have been utilized to assess how the various coastal counties/census tracts within the contiguous US may be impacted at various SLR levels over the longer term. 
 
 The specific levels of SLR chosen for each of these scenarios were based on the 2022 NOAA SLR Technical Report<sup>[3](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html)</sup>. In particular, three NOAA SLR long term levels are considered in this project: Low (0.6m or approxiamtely 2ft), Intermediate (1.2m or approxiamtely 4ft) and High (2.2m or approxiamtely 7ft); these projected SLR levels have been mapped to the qualitative stress testing scenarios as shown below:
 
@@ -134,7 +134,7 @@ The following datasets were utilied in the analysis needed for this project:
   <tr>
     <td>v2</td>
     <td>Nov 2023</td>
-    <td>Revised the project design to use a scenario based approach in the long term given the expected variability in potential long term SLR paths. Expanded analysis to include three scenarios designed in line with Federal Reserve Stress Testing scenario design guidance (Baseline, Adverse and Severly Adverse) to reflect 1ft, 6ft and 10ft of SLR by 2100</td>
+    <td>Revised the project design to use a scenario based approach in the long term given the expected variability in potential long term SLR paths. Expanded analysis to include three scenarios designed in line with Federal Reserve Stress Testing scenario design guidance (Baseline, Adverse and Severly Adverse) to reflect 1ft, 6ft and 10ft of SLR by 2100. Incorporated additional analysis for the medium term (2050)</td>
   </tr>
   <tr>
     <td>v3</td>
