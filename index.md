@@ -1,4 +1,6 @@
-# <center>Final Project Report: Impact of Rising Sea Levels on Coastal Residential Real Estate Assets</center>
+# <center>Impact of Rising Sea Levels on Coastal Residential Real Estate Assets</center>
+Publication available on [towardsdatascience](https://towardsdatascience.com/impact-of-rising-sea-levels-on-coastal-residential-real-estate-assets-f3d7764cbe8f)
+
 Code and other details available at [github repo](https://github.com/prarid/SeaLevelRiseImpact_CoastalRealEstate/tree/main)
 
 
